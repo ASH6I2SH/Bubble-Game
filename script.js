@@ -2,7 +2,7 @@ var score=0;
 var hitVal=0;
 
 function runTimer(){
-    var timer=5;
+    var timer=60;
     var ans= setInterval(function(){
         if(timer>0){
             timer=timer-1;
