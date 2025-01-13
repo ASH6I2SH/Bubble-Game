@@ -2,13 +2,14 @@ var score=0;
 var hitVal=0;
 
 function runTimer(){
-    var timer=60;
+    var timer=5;
     var ans= setInterval(function(){
         if(timer>0){
             timer=timer-1;
             document.querySelector("#timerval").textContent=timer;
         }
         else{
+            document.querySelector("#hitval").textContent="";
             document.querySelector("#pbtm").innerHTML="<h1>Game Over</h1>";
             clearInterval(ans);
         }
