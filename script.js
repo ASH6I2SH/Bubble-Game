@@ -23,7 +23,7 @@ function getNewHit(){
 
 function makeBubble(){
     for(var i=0; i<198; i++){
-        var num= Math.floor(Math.random()*10)
+        var num= Math.floor(Math.random()*10);
         document.querySelector("#pbtm").innerHTML+=`<div class="bubble">${num}</div>`;
     }
 }
